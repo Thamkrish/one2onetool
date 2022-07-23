@@ -31,12 +31,7 @@
       ],
       "linuxParameters": null,
       "cpu": 256,
-      "environment": [
-               {
-                    "name": "DATA_FILE",
-                    "value": "Questions-test.json"
-                }
-      ],
+      "environment": [],
       "resourceRequirements": null,
       "ulimits": null,
       "dnsServers": null,
