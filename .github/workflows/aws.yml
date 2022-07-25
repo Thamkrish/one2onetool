@@ -46,7 +46,7 @@ permissions:
   contents: read
 
 jobs:
- test:
+ codeQualityCheck:
     runs-on: ubuntu-latest
     permissions:
       actions: read
@@ -97,7 +97,7 @@ jobs:
          from: Git hub actions
  
  build:
-   needs: test
+   needs: codeQualityCheck
    runs-on: ubuntu-latest
    steps:
      - name: check out the code
