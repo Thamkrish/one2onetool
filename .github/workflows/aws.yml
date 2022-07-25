@@ -94,7 +94,7 @@ jobs:
          password: ${{secrets.MAIL_PASSWORD}}
          subject: Code quality has issues in release branch of ${{ github.repository }} --  ${{job.status}}
          body: "Job completed ${{job.status}} ${{ toJson(job) }}"
-         to: chidhambaram.ramanathan@gmail.com, rajarumalla@gmail.com, get.draman@gmail.com
+         to: get.draman@gmail.com
          from: Git hub actions
  
  softwarebuild:
@@ -167,5 +167,5 @@ jobs:
          password: ${{secrets.MAIL_PASSWORD}}
          subject: Workflow completed in release branch ${{ github.repository }} -- job status is  ${{job.status}}
          body: "Job completed ${{job.status}} ${{ toJson(job) }}"
-         to: chidhambaram.ramanathan@gmail.com, rajarumalla@gmail.com, get.draman@gmail.com
+         to: get.draman@gmail.com
          from: Git hub actions
